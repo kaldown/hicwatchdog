@@ -6,7 +6,7 @@ BOT_TOKEN = '302872852:AAFCedWRxyVoMWmq7V9bkjeKXDSSHw6xbNg'
 
 BASE_URL = 'https://api.telegram.org/bot{token}/{method}'
 
-hook_url = 'https://hicwatchdog.herokuapp.com/'
+hook_url = 'https://hicwatchdog.herokuapp.com'
 
 def set_web_hook():
     url = BASE_URL.format(token=BOT_TOKEN, method='setWebhook')
