@@ -44,7 +44,6 @@ class Ping(Resource):
 
         if isinstance(text, str):
             if text.startswith('/ping'):
-                print('PONG')
                 fetched_message = {
                     'chat_id': chat.get('id'),
                     'text': u'ты че епт {user}'\
